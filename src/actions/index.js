@@ -1,0 +1,11 @@
+const selectBook = (book) => {
+  // Select book is an action creator and needs to return an action
+  // an object with a property.
+  return {
+    type: 'BOOK_SELECTED',
+    payload: book
+  }
+};
+
+
+export { selectBook };
